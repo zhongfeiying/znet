@@ -1,4 +1,5 @@
-#encoding=utf-8
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 import re
 import requests
 import urllib2
@@ -10,7 +11,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 class Splider(object):
   def __init__(self):
-  print u'开始爬取内容...'
+	print 'start find'
   ##用来获取网页源代码
   def getsource(self,url):
   headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2652.0 Safari/537.36'}
